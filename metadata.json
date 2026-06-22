@@ -1,0 +1,6 @@
+{
+  "name": "Look's Men's Parlor & Salon",
+  "description": "Premium modern dark-themed family salon website with interactive live appointment booking, customized service categories, automated administrative notification triggers, visual grid galleries, and integrated location indicators.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
