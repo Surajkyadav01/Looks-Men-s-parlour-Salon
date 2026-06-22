@@ -53,7 +53,7 @@ export default function InstagramFeed() {
           </span>
           <h2 className="text-3xl sm:text-5xl font-serif text-zinc-100 font-bold transition-all">Our Gallery</h2>
           <p className="text-zinc-400 font-light text-sm">
-            Step into the premium styling space of Look's Men's Parlor & Salon. Explore real unedited captures of our modern salon workspace, styling haircuts, and custom groom treatments.
+            Step into the premium styling space of Look's Men's Parlour & Salon. Explore real unedited captures of our modern salon workspace, styling haircuts, and custom groom treatments.
           </p>
         </div>
 

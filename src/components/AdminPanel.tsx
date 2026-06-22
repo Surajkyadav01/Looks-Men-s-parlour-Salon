@@ -419,7 +419,7 @@ export default function AdminPanel({
 
             {/* Bottom panel indicator */}
             <div className="p-4 border-t border-zinc-900 bg-zinc-950 text-center font-mono text-[10px] text-zinc-500">
-              Look's Men's Parlor & Salon Multi-Channel Simulated Admin Terminal v2.1
+              Look's Men's Parlour & Salon Multi-Channel Simulated Admin Terminal v2.1
             </div>
 
           </motion.div>

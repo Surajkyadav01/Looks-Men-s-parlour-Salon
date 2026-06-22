@@ -1,7 +1,7 @@
 import { ServiceCategory } from '../types';
 
 export const SALON_INFO = {
-  name: "Look's Men's Parlor & Salon",
+  name: "Look's Men's Parlour & Salon",
   tagline: "Experience the ultimate grooming and styling precision at Suriyawan's ultimate destination. Premium haircuts, beard detailing, facial treatments, and modern style trends.",
   rating: "4.8/5",
   ratingCount: "73+ Reviews",
@@ -100,7 +100,7 @@ export const GALLERY_IMAGES = [
   },
   {
     url: "https://www.image2url.com/r2/default/images/1782114636254-4f9b41b4-4c89-42ee-a37f-b23f30df99c7.webp",
-    title: "Luxury Lounge & Inner Parlor View",
+    title: "Luxury Lounge & Inner Parlour View",
     category: "Shop"
   },
   {

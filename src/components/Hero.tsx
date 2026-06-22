@@ -49,7 +49,7 @@ export default function Hero({ onBookClick, onServicesClick }: HeroProps) {
           >
             Look's <br />
             <span className="text-[#c59246] font-serif font-bold">
-              Men's Parlor & Salon
+              Men's Parlour & Salon
             </span>
           </motion.h1>
 

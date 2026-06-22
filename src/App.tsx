@@ -85,7 +85,7 @@ export default function App() {
       {
         id: "notif_seed_1",
         type: "booking",
-        title: "Welcome to Look's Men's Parlor & Salon CRM",
+        title: "Welcome to Look's Men's Parlour & Salon CRM",
         message: "Your premium automated alert channel is active. Future styling requests populate here in real-time.",
         timestamp: "10:00 AM " + new Date().toLocaleDateString(),
         read: false,
@@ -331,20 +331,68 @@ export default function App() {
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 md:px-8 flex items-center justify-between">
-          {/* Logo Brand with custom "Look's Men's Parlor & Salon" style info */}
-          <a href="#home" className="flex items-center gap-2.5 group">
-            <div className="relative">
-              <div className="w-10 h-10 rounded-full bg-zinc-950 border border-[#c59246]/45 flex items-center justify-center text-[#c59246] group-hover:border-amber-400 transition-colors">
-                <Scissors size={18} className="rotate-90 text-[#c59246]" />
-              </div>
-              <span className="absolute -top-0.5 -right-0.5 w-2.5 h-2.5 rounded-full bg-amber-400 border border-zinc-950" />
-            </div>
+          {/* Logo Brand with custom "Look's Men's Parlour & Salon" style info */}
+          <a href="#home" className="flex items-center gap-2.5 group select-none">
+            <motion.div 
+              className="relative"
+              animate={{
+                y: [0, -2, 0],
+              }}
+              whileHover={{ 
+                scale: 1.05,
+                y: -3,
+                transition: { type: "spring", stiffness: 400, damping: 15 }
+              }}
+              transition={{
+                y: {
+                  repeat: Infinity,
+                  duration: 2.8,
+                  ease: "easeInOut"
+                }
+              }}
+            >
+              <motion.div 
+                className="w-10 h-10 rounded-full bg-zinc-950 border border-[#c59246]/45 flex items-center justify-center text-[#c59246] transition-colors duration-300"
+                animate={{
+                  borderColor: ["rgba(197, 146, 70, 0.35)", "rgba(197, 146, 70, 0.75)", "rgba(197, 146, 70, 0.35)"],
+                  boxShadow: [
+                    "0 0 0px rgba(197, 146, 70, 0)",
+                    "0 0 8px rgba(197, 146, 70, 0.35)",
+                    "0 0 0px rgba(197, 146, 70, 0)"
+                  ]
+                }}
+                transition={{
+                  repeat: Infinity,
+                  duration: 2.8,
+                  ease: "easeInOut"
+                }}
+              >
+                <motion.div
+                  className="rotate-90 text-[#c59246] flex items-center justify-center"
+                  animate={{
+                    filter: [
+                      "drop-shadow(0 0 0px rgba(197, 146, 70, 0))",
+                      "drop-shadow(0 0 4px rgba(197, 146, 70, 0.75))",
+                      "drop-shadow(0 0 0px rgba(197, 146, 70, 0))"
+                    ],
+                    scale: [1, 1.04, 1]
+                  }}
+                  transition={{
+                    repeat: Infinity,
+                    duration: 2.8,
+                    ease: "easeInOut"
+                  }}
+                >
+                  <Scissors size={18} />
+                </motion.div>
+              </motion.div>
+            </motion.div>
             <div>
               <span className="font-serif font-black text-base md:text-lg uppercase tracking-wider text-white block">
                 Look's <span className="text-[#c59246]">Men's</span>
               </span>
               <span className="text-[9px] text-zinc-500 tracking-widest font-mono uppercase block font-semibold -mt-0.5">
-                Parlor & Salon
+                Parlour & Salon
               </span>
             </div>
           </a>

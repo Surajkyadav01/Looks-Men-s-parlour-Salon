@@ -90,8 +90,8 @@ export default function Footer({ onContactSubmit }: FooterProps) {
     }, 1200);
   };
 
-  // Safe Google Maps link targeted at Look's Men's Parlor & Salon exact coordinates (25.4596965, 82.4155819)
-  const mapIframeUrl = "https://maps.google.com/maps?q=25.4596965,82.4155819+(Look's%20Men's%20Parlor%20%26%20Salon)&t=&z=16&ie=UTF8&iwloc=B&output=embed";
+  // Safe Google Maps link targeted at Look's Men's Parlour & Salon exact coordinates (25.4596965, 82.4155819)
+  const mapIframeUrl = "https://maps.google.com/maps?q=25.4596965,82.4155819+(Look's%20Men's%20Parlour%20%26%20Salon)&t=&z=16&ie=UTF8&iwloc=B&output=embed";
 
   return (
     <footer id="contact" className="bg-zinc-950 text-white border-t border-zinc-900 pt-24 pb-8 relative scroll-mt-12">
@@ -105,7 +105,7 @@ export default function Footer({ onContactSubmit }: FooterProps) {
           {/* COLUMN 1: SIDEBAR DETAILS (4-COLUMNS) */}
           <div className="lg:col-span-4 space-y-8">
             <div className="space-y-3">
-              <h3 className="text-2xl sm:text-3xl font-serif font-bold text-zinc-100">Look's Men's Parlor & Salon</h3>
+              <h3 className="text-2xl sm:text-3xl font-serif font-bold text-zinc-100">Look's Men's Parlour & Salon</h3>
               <p className="text-xs text-[#c59246] font-mono tracking-widest uppercase font-semibold">Premium Grooming & Styling</p>
               <p className="text-sm text-zinc-400 font-light leading-relaxed">
                 Transforming style, hair designs, royal beard grooms, and skin care therapies at Siyaram Complex, Suriyawan. Experience unmatched standards by certified style gurus.
@@ -289,7 +289,7 @@ export default function Footer({ onContactSubmit }: FooterProps) {
               {/* Floating Map Overlay Card representing the exact search location with Directions trigger */}
               <div className="absolute top-3 left-3 z-20 max-w-[280px] bg-white rounded shadow-lg p-3 flex items-start justify-between gap-3 select-none pointer-events-auto border border-zinc-200">
                 <div className="text-left font-sans">
-                  <h5 className="text-[12px] font-bold text-zinc-900 leading-tight">Look's Men's Parlor</h5>
+                  <h5 className="text-[12px] font-bold text-zinc-900 leading-tight">Look's Men's Parlour</h5>
                   <p className="text-[10px] text-zinc-500 mt-0.5 leading-snug">Shop No A5 Siyaram Complex, bypass chauraha, Suriyawan</p>
                   <p className="text-[9px] text-zinc-400 mt-0.5 font-medium">Bhadohi, Uttar Pradesh 221404</p>
                   <a 
@@ -330,7 +330,7 @@ export default function Footer({ onContactSubmit }: FooterProps) {
 
         {/* Brand Separator */}
         <div className="border-t border-zinc-900 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs font-mono text-zinc-500">
-          <p>© {new Date().getFullYear()} Look's Men's Parlor & Salon. All Rights Reserved. Engineered with premium standards.</p>
+          <p>© {new Date().getFullYear()} Look's Men's Parlour & Salon. All Rights Reserved. Engineered with premium standards.</p>
           <div className="flex gap-4">
             <a href="#services" className="hover:text-amber-400 transition-colors">Services</a>
             <a href="#booking" className="hover:text-amber-400 transition-colors">Booking Desk</a>

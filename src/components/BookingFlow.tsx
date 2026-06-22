@@ -161,7 +161,7 @@ export default function BookingFlow({ selectedPreloadService, onBookingSuccess }
           "Accept": "application/json"
         },
         body: JSON.stringify({
-          "_subject": `🛎️ Look's Men's Parlor - New Booking: ${booking.customerName}`,
+          "_subject": `🛎️ Look's Men's Parlour - New Booking: ${booking.customerName}`,
           "--- APPOINTMENT DETAILS ---": "--------------------------------------------------",
           "Customer Name": booking.customerName,
           "Customer Phone": `+91 ${booking.customerPhone}`,

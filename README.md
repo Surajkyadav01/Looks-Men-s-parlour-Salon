@@ -1,6 +1,6 @@
-# 🛎️ Look's Men's Parlor & Salon
+# 🛎️ Look's Men's Parlour & Salon
 
-A premium, modern, dark-themed digital experience for a modern salon and family parlor. Designed with sleek typography, high-contrast gold accents, luxury spacing, fluid interactive-state animations, and practical business tools.
+A premium, modern, dark-themed digital experience for a modern salon and family parlour. Designed with sleek typography, high-contrast gold accents, luxury spacing, fluid interactive-state animations, and practical business tools.
 
 ---
 
