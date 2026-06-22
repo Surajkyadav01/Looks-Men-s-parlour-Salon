@@ -120,7 +120,7 @@ export default function Hero({ onBookClick, onServicesClick }: HeroProps) {
               <Award size={20} className="text-[#c59246]" />
             </div>
             <div>
-              <span className="font-serif font-black text-sm sm:text-lg md:text-xl text-zinc-100 block tracking-tight">15+ Years</span>
+              <span className="font-serif font-black text-sm sm:text-lg md:text-xl text-zinc-100 block tracking-tight">7+ Years</span>
               <span className="text-[10px] text-zinc-500 uppercase tracking-widest font-mono font-medium block">Experience</span>
             </div>
           </div>
