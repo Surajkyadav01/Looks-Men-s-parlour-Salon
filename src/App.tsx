@@ -327,7 +327,7 @@ export default function App() {
         className={`fixed top-0 inset-x-0 z-40 transition-all duration-300 border-b ${
           scrolled 
             ? 'bg-black/95 backdrop-blur-md py-3.5 border-zinc-900' 
-            : 'bg-transparent py-5 border-transparent'
+            : 'bg-black/40 backdrop-blur-sm py-5 border-zinc-800/45'
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 md:px-8 flex items-center justify-between">
