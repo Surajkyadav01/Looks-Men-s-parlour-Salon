@@ -28,12 +28,12 @@ interface BookingFlowProps {
 
 // 6 standard selectable services from screenshot
 const BRAND_SERVICES = [
-  { id: "h1", name: "Haircut & Styling", duration: "45 min", price: 299, category: "Hair Care & Styling" },
-  { id: "h4", name: "Hair Color", duration: "120 min", price: 2199, category: "Hair Care & Styling" },
-  { id: "p2", name: "Bridal Package", duration: "180 min", price: 3999, category: "Beauty & Makeup" },
-  { id: "h2", name: "Hair Treatment", duration: "60 min", price: 899, category: "Hair Care & Styling" },
-  { id: "f2", name: "Facial", duration: "45 min", price: 699, category: "Facial & Skin Care" },
-  { id: "n1", name: "Manicure & Pedicure", duration: "120 min", price: 799, category: "Nail Care" }
+  { id: "h1", name: "Haircut & Styling", duration: "45 min", price: 90, category: "Hair Care & Styling" },
+  { id: "h4", name: "Hair Color", duration: "120 min", price: 50, category: "Hair Care & Styling" },
+  { id: "p2", name: "Bridal Package", duration: "180 min", price: 899, category: "Beauty & Makeup" },
+  { id: "h2", name: "Hair Treatment", duration: "60 min", price: 150, category: "Hair Care & Styling" },
+  { id: "f2", name: "Facial", duration: "45 min", price: 100, category: "Facial & Skin Care" },
+  { id: "n1", name: "Manicure & Pedicure", duration: "120 min", price: 120, category: "Nail Care" }
 ];
 
 // Fixed time slots shown in step 2 screenshot
